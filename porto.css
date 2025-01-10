@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/*section {
+    height: 100vh;
+}*/
+
+/* Untuk Tombol Menu Atas*/
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: #4717F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    transition: all;
+    transition-duration: 500ms;
+    border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+    color: #a239ca;
+    border-bottom: 1px solid #a239ca;
+}
+
+/* About */
+#abt img{
+    width: 200px;
+    order: 1;
+    filter: drop-shadow(2px 2px 15px hsl(300, 48%, 28%)); /*untuk ngasih shadow di gambar*/
+}
+
+#abt p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+}
+
+#abt {
+    display: flex;
+    align-items: center; /* Menyusun gambar dan tulisan secara vertikal di tengah */
+    justify-content: center; /* Menyusun konten secara horisontal di tengah */
+    gap: 20px; /* Menambahkan jarak antara gambar dan tulisan */
+    border: 5px solid black; /* Hanya untuk menunjukkan batas box */
+    margin: 10px; 
+    padding: 10px;
+    overflow: auto;
+}
+
+/* experience */
+
+.main {
+    border: 5px solid #4717F6;
+    margin: 5px;
+    padding: 5px;
+    gap: 20px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp1 img {
+    width: 200px;
+    align-items: center;
+    order: 1;
+}
+
+.exp2 img {
+    width: 200px;
+    align-items: center;
+}
+
+.exp3 img {
+    width: 200px;
+    align-items: center;
+    order: 1;
+}
+
+.exp4 img {
+    width: 200px;
+    align-items: center;
+}
+
+.main p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+}
