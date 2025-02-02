@@ -240,17 +240,17 @@ div.a-text h1.a span.a {
         -webkit-text-fill-color: transparent;
     }
     25% {
-        background-color: #ffdd00;
+        background-color: #f2ff00;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     50% {
-        background-color: #ffd000;
+        background-color: #9dff00;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     75% {
-        background-color: #ffc300;
+        background-color: #77ff00;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -736,7 +736,7 @@ span.contactme2 img {
         width: 15.625rem;
         height: auto;
         left: 5.625rem;
-        bottom: 1.25rem;
+        bottom: 0rem;
         rotate: 0deg;
     }    
 
@@ -854,7 +854,7 @@ span.contactme2 img {
     }
 
     span.beginner img {
-        width: 25rem;
+        width: 21.875rem;
         rotate: 23deg;
         display: flex;
         justify-content: center;
