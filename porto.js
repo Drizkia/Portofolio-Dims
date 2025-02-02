@@ -17,3 +17,16 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var audio = document.getElementById("music");
+
+    function playMusic() {
+        audio.play().catch(error => console.log("Autoplay diblokir:", error));
+        document.removeEventListener("click", playMusic); // Hapus event listener setelah dimainkan
+    }
+
+    // Memutar musik saat user pertama kali berinteraksi
+    document.addEventListener("click", playMusic);
+    document.addEventListener("scroll", playMusic);
+});
